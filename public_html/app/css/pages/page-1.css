@@ -1,0 +1,34 @@
+#page{
+    background: url(../../resources/u8_normal.png) no-repeat top center;
+    background-position-y: 40px;
+}
+.input-row{
+    float: left;
+    width: 100%;
+}
+#row1{
+    padding-top: 335px;
+}
+#row2{
+    padding-top: 19px;
+}
+.input,.input input{
+    float: left;
+    height: 24px;
+    border: none;
+    background: none;
+    width: 32px;
+    margin-left: 10px;
+}
+.input{
+    width: 105px;
+}
+.input:nth-child(1){
+    margin-left: 116px;
+}
+.input:nth-child(2){
+    margin-left: 126px;
+}
+.input:nth-child(3){
+    margin-left: 162px;
+}

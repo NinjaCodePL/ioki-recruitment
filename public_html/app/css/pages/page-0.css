@@ -1,0 +1,29 @@
+#page{
+    background: url(../../resources/u38_normal.png) no-repeat top center;
+}
+#row1{
+    padding-top: 161px;
+}
+#row2{
+    padding-top: 213px;
+}
+.input,.input input{
+    float: left;
+    height: 24px;
+    border: none;
+    background: none;
+    width: 72px;
+    padding-left: 3px;
+}
+.input{
+    width: 105px;
+}
+.input:nth-child(1){
+    margin-left: 145px;
+}
+.input:nth-child(2){
+    margin-left: 175px;
+}
+.input:nth-child(3){
+    margin-left: 170px;
+}

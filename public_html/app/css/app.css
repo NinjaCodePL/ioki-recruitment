@@ -1,0 +1,130 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+#content{
+        opacity: 0;
+    width: 100%;
+    height: 505px;
+}
+#page-inner{
+    width: 960px;
+    height: 495px;
+    margin: 0 auto;
+    background: rgba(241, 241, 241, 0.67);
+    padding-top: 50px;
+}
+#page-content{
+    width: 760px;
+    margin: 0 auto;
+    height: 505px;
+    background: red;
+}
+#page{
+    width:100%;
+    height: 100%;
+}
+#buttonSection{
+    opacity: 0;
+    width: 960px;
+    height: 36px;
+    margin: 0 auto;
+}
+#resetButton{
+    display: none;
+}
+#checkOutButton,#resetButton{
+    width: 36px;
+    height: 36px;
+    background: url(../resources/u13_normal.png) no-repeat;
+    float: right;
+    margin-right: 30px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+#resetButton{
+    background: url(../resources/u11_normal.png) no-repeat;
+}
+h3,h2{
+    text-align: left;
+    float: left;
+    width: 100%;
+    padding-left:30px;
+}
+h3{
+    top: 40px;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #333;
+    margin-top: -20px;
+}
+h2{
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #4654AB;
+    margin-top: -30px;
+}
+.input span{
+    width: 26px;
+    height: 20px;
+    float: left;
+}
+.false{
+    background: url(../resources/u58_normal.png) no-repeat top right;
+    width: 26px;
+    height: 20px;
+    float: left;
+}
+.true{
+    background: url(../resources/u16_normal.png) no-repeat top right;
+     width: 26px;
+    height: 20px;
+    float: left;
+}
+#timeLine{
+    width: 960px;
+    height: 34px;
+    margin: 30px auto;
+}
+#timeLine.step0{
+    background: url(../resources/u87_normal.png) no-repeat top left;
+    background-position-x: 0;
+}
+#timeLine.step1{
+    background: url(../resources/u84_normal.png) no-repeat top left;
+    background-position-x: -62px;
+}
+#nextButton{
+    background: url(../resources/u78_normal.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+#prevButton{
+    background:url(../resources/u75_normal.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-left: 33px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+#pointer{
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    background: url(../resources/u91_normal.png) no-repeat;
+    margin-left: 593px;
+    margin-top: -15px;
+}
